@@ -49,4 +49,4 @@ The anchors of the matching an email regex expression are the "^" and "$" locate
 https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
 
 ## Author
-This was written by Marina Del Conte, a current full-stack development bootcamp student. Here is a link to her GitHub profile: https://github.com/marinadelconte
+View my full GitHub profile here: https://github.com/marinadelconte
