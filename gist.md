@@ -1,4 +1,4 @@
-# Regex Tutorial - 
+# Regex Tutorial - Matching an Email
 
 Introductory paragraph (replace this with your text)
 
@@ -45,5 +45,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Look-ahead and Look-behind
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This was written by Marina Del Conte, a current full-stack development bootcamp student. Here is a link to her GitHub profile: https://github.com/marinadelconte
