@@ -1,6 +1,6 @@
 # Regex Tutorial - Matching an Email
 
-Introductory paragraph (replace this with your text)
+In this document, I will be breaking down the components of a Regex that was used to match an email address. A Regex, or Regular Expression, is defined as a series of special characters that define a search pattern (source: https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial.)
 
 ## Summary
 
