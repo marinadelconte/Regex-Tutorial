@@ -1,16 +1,14 @@
-WeatherDashboard
-Description
-The Weather Dashboard will provide the current day and next five day weather forecast for the city that the user inputs into the search bar. Results will return the temperature, humidity, and wind speed, as well as a graphic that correlates with the weather condition.
+# Regex Tutorial
 
-Installation
-To use, the user will enter a city into the search bar and hit search. They should then see the current day's forecast for that location as well as the forecast for the next five days.
+## Description
+The Regex Tutorial examines a regex that is used for matching an email address: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ and breaks it down into its separate components to explain each part that is making up the expression. This includes anchors, quantifiers, character classes, groupings, bracket expressions, and greedy/lazy matches.
 
-Usage
-The weather dashboard application can be accessed via the following url: https://marinadelconte.github.io/WeatherDashboard/
+## Usage
+The public gist can be accessed via the following link:
+https://gist.github.com/marinadelconte/7d19c7de7a9095c1c15c0347e33e01fd 
 
-Below is a screenshot of the webpage: Screenshot (16)
-
-Credits
-While working on this assignment, I used the following resources for assistance: https://openweathermap.org/forecast5#5days https://www.tutorialspoint.com/how-to-modify-this-javascript-code-to-grab-an-image-url-from-a-json-file-and-display-it-in-html
-
-Additionally, my instructor provided us a video to help us get started on this assignment. I also attended office hours and worked with a tutor for assistance.
+## Sources
+While working on this assignment, I used the following resources for assistance: 
+https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
+https://stackoverflow.com/questions/2301285/what-do-lazy-and-greedy-mean-in-the-context-of-regular-expressions
+https://www.rexegg.com/regex-lookarounds.html
