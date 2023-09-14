@@ -1,10 +1,10 @@
 # Regex Tutorial - Matching an Email
 
-In this document, I will be breaking down the components of a Regex that was used to match an email address. A Regex, or Regular Expression, is defined as a series of special characters that define a search pattern (source: https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial.)
+In this document, I will be analyzing the components of a Regex expression that was used to match an email address. A Regex, or Regular Expression, is defined as a series of special characters that define a search pattern. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regular expression that I will be looking at is used to match an email address: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/. I am going to break this down piece by piece to explain the different parts of the regex expression, what it means, and what it is doing.
 
 ## Table of Contents
 
@@ -23,6 +23,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+The anchors of the matching an email regex expression are the "^" and "$" located at the beginning and end of the expression. The "^" indicates the beginning of the string and the "$" indicates the end of the string. 
 
 ### Quantifiers
 
@@ -43,6 +44,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Back-references
 
 ### Look-ahead and Look-behind
+
+## Sources
+https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
 
 ## Author
 This was written by Marina Del Conte, a current full-stack development bootcamp student. Here is a link to her GitHub profile: https://github.com/marinadelconte
