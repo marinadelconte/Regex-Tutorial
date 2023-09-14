@@ -1,6 +1,6 @@
 # Regex Tutorial - Matching an Email
 
-In this document, I will be analyzing the components of a Regex expression that was used to match an email address. A Regex, or Regular Expression, is defined as a series of special characters that define a search pattern. 
+In this document, I will be analyzing the components of a Regex expression that is used to match an email address. A Regex, or Regular Expression, is defined as a series of special characters that define a search pattern. 
 
 ## Summary
 
@@ -30,12 +30,16 @@ The character class in a regex is used to define a set of characters that can be
 The regex expression for matching an email address is broken up into three groups, each inidcated by the separate (). The first group is ([a-z0-9_\.-]+), followed by ([\da-z\.-]+) and ([a-z\.]{2,6}). These fields indicate the different fields that we are requiring from the user: email, email provider, and .com or .org, etc.
 
 ### Bracket Expressions
+Bracket expressions are anything located in between [] and represent the range or ranges of characters to be matched. In this expression, in the part [a-z0-9_\.-] we are stating that we want to match letters a-z (case sensitive), numbers 0-9, and special characters can be "_", "\", ".", or "-". 
 
 ### Greedy and Lazy Match
-
+The "+" is an indication for a greedy match and the "?" is an indication for a lazy match. In this expression we have the "
++" symbol, incidacting that we have a greedy match. This means that it will use as much of the requested pattern as possible. 
 
 ## Sources
 https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
+https://stackoverflow.com/questions/2301285/what-do-lazy-and-greedy-mean-in-the-context-of-regular-expressions
+https://www.rexegg.com/regex-lookarounds.html
 
 ## Author
 View my full GitHub profile here: https://github.com/marinadelconte
