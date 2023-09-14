@@ -10,15 +10,10 @@ The regular expression that I will be looking at is used to match an email addre
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
@@ -32,16 +27,12 @@ The quantifiers of a regex expression indicate the minimum and maximum number of
 The character class in a regex is used to define a set of characters that can be used in the expression. This expression contains the character class of \d which indicates a single digit from 0-9.
 
 ### Grouping and Capturing
+The regex expression for matching an email address is broken up into three groups, each inidcated by the separate (). The first group is ([a-z0-9_\.-]+), followed by ([\da-z\.-]+) and ([a-z\.]{2,6}). These fields indicate the different fields that we are requiring from the user: email, email provider, and .com or .org, etc.
 
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Sources
 https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
