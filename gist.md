@@ -34,7 +34,7 @@ Bracket expressions are anything located in between [] and represent the range o
 
 ### Greedy and Lazy Match
 The "+" is an indication for a greedy match and the "?" is an indication for a lazy match. In this expression we have the "
-+" symbol, incidacting that we have a greedy match. This means that it will use as much of the requested pattern as possible. 
++" symbol, indicating that we have a greedy match. This means that it will use as much of the requested pattern as possible. 
 
 ## Sources
 https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
